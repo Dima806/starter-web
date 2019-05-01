@@ -9,5 +9,5 @@ Sample website with plenty of files for demos
 ## GIT Comparisons
 Adding GIT comparisons feature
 
-## GITHun Content
+## GITHub Content
 Comparison with Repo
