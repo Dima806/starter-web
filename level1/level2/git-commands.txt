@@ -1,0 +1,287 @@
+    4  git --version
+    5  git config
+    6  git config --global user.name "Iakubovskyi, Dmytro"
+    7  git config --global user.email "dima806@gmail.com"
+    8  git config --global user.name "Dmytro IAKUBOVSKYI"
+    9  git config --list
+   10  git help
+   11  git help
+   12  git help add
+   13  ls .gitconfig
+   14  gedit .gitconfig
+   15  vi .gitconfig
+   16  git config --list
+   17  git config --global web.brwoser.chrome.path C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe
+   18  git config --global web.brwoser.chrome.path "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+   19  git config --list
+   20  git help rebase
+   21  vi .gitconfig
+   22  git help rebase
+   29  mkdir git-project-test
+   30  cd git-project-test/
+   31  git init
+   33  git status
+   38  git status
+   39  git add .
+   40  git status
+   41  git commit -m "first commit"
+   42  git status
+   44  git status
+   45  git add .
+   46  git status
+   47  git commit -m "second commit"
+   48  git status
+   51  git status
+   52  git log
+   53  git log --author="Dmytro IAKUBOVSKYI"
+   54  git log --author="Dmytro *"
+   56  git status
+   57  git commit -m "New files added"
+   58  git add .
+   59  git commit -m "New files added"
+   60  git status
+   61  git log
+   62  git status
+   63  git commit -m "third commit"
+   64  git status
+   65  git add .
+   66  git commit -m "third commit"
+   67  git status
+   68  git log
+   73  git config --global core.editor "\"C:\Program Files (x86)\Notepad++\notepad++.exe\""
+   77  cat .gitconfig
+   78  git config --global -e
+   82  cd git-project-test/
+   83  git status
+   84  git status
+   85  git diff
+   87  git status
+   88  git diff
+   89  git add testfile.txt testfile.txt 
+   90  git diff
+   91  git status
+   92  git add .
+   93  git status
+   94  git diff
+   95  git status
+   96  git diff --staged
+   97  git commit -m "commit dumb changes"
+   98  git status
+   99  git diff --staged
+  100  git status
+  101  git add .
+  102  git status
+  103  git commit -m "Deleted file"
+  104  git status
+  106  git rm SampleDoc3.txt 
+  107  git status
+  108  git commit -m "Deleted one more file"
+  109  git status
+  111  mkdir git-github
+  113  cd git-github/
+  114  git init
+  115  git remove add origin https://github.com/Dima806/git-github.git
+  116  git remote add origin https://github.com/Dima806/git-github.git
+  118  git remote add origin "https://github.com/Dima806/git-github.git"
+  119  git status
+  120  git diff --staged
+  121  git pull
+  122  git pull origin master
+  125  git init
+  126  git remote add origin "https://github.com/Dima806/git-github.git"
+  127  git pull origin master
+  128  git add .
+  129  git pull origin master
+  134  rm -r git-github
+  135  mkdir git-github
+  136  git init
+  137  git remote add origin "https://github.com/Dima806/git-github.git"
+  138  git push origin master
+  140  git add .
+  143  rm .git
+  145  rm -r .git
+  147  cd git-github/
+  148  git init
+  149  git remove add origin https://github.com/Dima806/git-github.git
+  150  git remote add origin https://github.com/Dima806/git-github.git
+  151  git push -u origin master
+  153  git add .
+  154  git status
+  155  git push -u origin master
+  156  git rm test.txt
+  157  git status
+  158  git add .
+  159  git status
+  160  git push -u origin master
+  161  git pull origin master
+  162  git remote add origin https://github.com/Dima806/git-github.git
+  163  git remote remove origin
+  164  git remote add origin https://github.com/Dima806/git-github.git
+  165  git pull origin master
+  166  git remote add origin https://github.com/Dima806/git-github.git
+  167  git remote remove origin
+  168  git remote remove origin
+  169  git remote add origin https://github.com/Dima806/git-github.git
+  170  git pull origin master
+  171  git remote remove origin
+  172  git remote add origin "https://github.com/Dima806/git-github.git"
+  173  git pull origin master
+  179  rm -rf git-github
+  181  mkdir git-github
+  182  git remote add origin "https://github.com/Dima806/git-github.git"
+  183  git init
+  184  git remote add origin "https://github.com/Dima806/git-github.git"
+  185  git pull origin master
+  186  git pull
+  187  git pull origin master
+  188  git remote add origin https://github.com/Dima806/git-github.git
+  189  git push -u origin master
+  190  rm .git
+  191  rm -r .git
+  195  rm -r .git
+  197  rm -r git-github
+  198  mkdir git-github
+  199  cd git-github
+  200  git init
+  201  git remote add origin https://github.com/Dima806/git-github.git
+  202  git push -u origin master
+  203  git pull origin master
+  204  git branch -u master origin/master
+  205  git branch -u master master
+  206  git branch -a
+  207  git status
+  208  git add .
+  209  git status
+  212  git pull origin master
+  218  cd git-github
+  221  git status
+  222  git add .
+  223  git status
+  224  git commit -m "My first commit"
+  225  git push origin master
+  226  git log
+  227  git pull origin master
+  231  git branch develop
+  233  history | grep git > ../git-commands.txt
+  234  git checkout develop
+  236  git branch
+  237* git bra
+  238  git branch
+  239  git checkout
+  240  git checkout master
+  242  git checkout develop
+  243  history | grep git > ../git-commands.txt
+  247  git status
+  248  git add .
+  249  git status
+  250  git commit -m "Branch Develop"
+  252  git checkout master
+  254  git checkout develop
+  256  history | grep git > ../git-commands.txt
+  257  cat ../git-commands.txt 
+  258  git checkout master
+  260  git checkout develop
+  263  git add .
+  264  git commit -m "Adding file in Develop"
+  265  git push origin develop
+  266  git checkout master
+  268  git merge develop
+  269  history | grep git > ../git-commands.txt
+  270  git push origin master
+  271  git branch
+  272  git checkout SecBranch
+  273  git push origin SecBranch
+  274  git pull origin master
+  276  git push origin SecBranch
+  277  history | grep git > ../git-commands.txt
+  278  git status
+  280  git status
+  281  git diff
+  282  git add .
+  283  git status
+  284  history | grep git > ../git-commands.txt
+  285  git reset HEAD SampleTest1.txt
+  286  git status
+  287  git checkout develop
+  288  git status
+  289  git add .
+  290  git status
+  291  git diff
+  292  git commit -m "Moving stage to local repo"
+  293  git log
+  294  git status
+  295  git reset HEAD~
+  296  git status
+  297  git log
+  298  history | grep git > ../git-commands.txt
+  305  mv web-project git-web-project
+  306  cd git-web-project
+  307  git init
+  309  git status
+  310  git add .
+  311  git status
+  312  git commit -m "Web project is commited"
+  313  git status
+  314  history | grep git > ../git-commands.txt
+  316  git status
+  317  git diff
+  318  rm -rf .git
+  319  git status
+  320  history | grep git > ../git-commands.txt
+  323  git clone https://github.com/Dima806/starter-web.git
+  327  git status
+  328  history | grep git > ../git-commands.txt
+  331  git status
+  332  git add Testfile.txt
+  333  git status
+  334  git commit -m "Committing test file"
+  336  git status
+  337  history | grep git > ../git-commands.txt
+  338  git pull origin master
+  339  git status
+  340  git push origin master
+  341  git status
+  345  git status
+  346  git add Testfile.txt 
+  347  git status
+  350  git status
+  351  git reset HEAD Testfile.txt
+  352  git status
+  355  git status
+  356  git checkout -- Testfile.txt
+  358  git status
+  359  history | grep git > ../git-commands.txt
+  360  git status
+  362  git rm Testfile.txt 
+  363  git status
+  364  git reset HEAD Testfile.txt
+  366  git status
+  367  git checkout -- Testfile.txt
+  370  git status
+  371  history | grep git > ../git-commands.txt
+  383  git status
+  384  history | grep git > ../git-commands.txt
+  385  git add .
+  386  git status
+  387  git commit -m "Adding files recursively"
+  388  git push origin master
+  390  git status
+  394  git mv level3-file.txt level3-file-new.txt
+  395  git status
+  397  git status
+  398  git add .
+  399  git status
+  400  git mv level3-file-new.txt ../level2/.
+  401  git mv level3-file-new.txt ../
+  403  git status
+  405  git status
+  406  git commit -m "Renaming file"
+  407  git status
+  410  git mv level2-file.txt level3
+  413  git status
+  414  git log
+  415  git help log
+  416  git log --oneline --graph --decorate
+  417  git log --since="2 days ago"
+  418  git log --since="12 days ago"
+  421  history | grep git > ../git-commands.txt
