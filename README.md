@@ -10,4 +10,4 @@ Sample website with plenty of files for demos
 Adding GIT comparisons feature
 
 ## GITHub Content
-Comparison with Repo
+Comparison with Repo2
