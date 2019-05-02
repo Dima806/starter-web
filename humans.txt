@@ -2,7 +2,7 @@
 # The humans responsible & technology colophon
 
 # TEAM
-	Dmytro Iakubovskyi
+	Dima Iakubovskyi
 
 # THANKS
 
