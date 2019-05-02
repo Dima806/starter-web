@@ -9,6 +9,7 @@ A lot of lectures are coming
 
 ## GIT Comparisons
 Adding GIT comparisons feature
+Adding new lecture materials
 
 ## GITHub Content
 Comparison with Repo2222
