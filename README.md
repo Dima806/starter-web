@@ -8,6 +8,7 @@ This is GIT project which we are using as Sample project
 
 Sample website with plenty of files for demos
 A lot of lectures are coming!
+Vi have done work
 
 ## GIT Comparisons
 Adding GIT comparisons feature
